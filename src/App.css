@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align:center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+}
+.border {
+  background-color: white;
+  
+}
+
+.border1 {
+  background-color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #fff;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.form-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .logo img {
+  width: 60px;
+} */
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.registration-form {
+  margin-top: 20px;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  /* border-bottom: 1px solid #ccc; */
+  /* margin-top: 25px; */
+  /* padding-bottom: 5px ; */
+}
+
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], input[type="tel"], select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkbox-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-signature {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.form-signature label {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #777;
+}
+
+.footer p {
+  margin: 5px 0;
+}
